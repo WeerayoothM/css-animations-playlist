@@ -13,6 +13,23 @@ img {
   /* transform: translate(200px,200px); */
   /* transform: scale(2, 0.5); */
   /* transform: rotate(90deg); clockwisedeg */
-  transform: rotate(-90deg) translateY(200px); /* rotate axis before translate*/
-  transform: translateY(200px) rotate(-90deg) scale(1.5); /* translate before rotate axis*/
+  /* transform: rotate(-90deg) translateY(200px);  rotate axis before translate
+  transform: translateY(200px) rotate(-90deg) scale(1.5); translate before rotate axis*/
+}
+
+.circle {
+  margin: 60px auto;
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  background: pink;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 1s, transform 0.3s 1s linear; /* [duration delay] */
+}
+
+.circle:hover {
+  background-color: tomato;
+  transform: rotate(360deg);
 }
