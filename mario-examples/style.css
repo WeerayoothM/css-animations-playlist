@@ -50,7 +50,7 @@ body {
   animation-name: drive;
   animation-duration: 3s;
   animation-fill-mode: both;
-  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 
 .luigi {
@@ -63,9 +63,9 @@ body {
 
 @keyframes drive {
   from {
-    transform: translateX(0);
+    transform: translateX(-200px);
   }
   to {
-    transform: translateX(700px);
+    transform: translateX(100vw);
   }
 }
