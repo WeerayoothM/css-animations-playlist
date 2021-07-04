@@ -51,6 +51,7 @@ body {
   animation-duration: 3s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0.91, 1, 0.25);
 }
 
 .luigi {
