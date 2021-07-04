@@ -47,7 +47,10 @@ body {
   position: absolute;
   top: -40px;
   left: 0px;
-  animation: drive 3s infinite; /*timing-function delay iteration-count direction fill-mode;*/
+  animation-name: drive;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
 
 .luigi {
